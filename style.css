@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url('res/LOGO.png');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center center ;
+
+}
+fieldset {
+width: 300px;
+margin: 50px auto;
+border: 1px solid #ccc;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8); 
+border-radius: 10px;
+text-align: center;
+}
+label {
+font-weight: bold;
+}
+.temp input[type="text"],input[type="password"] {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+box-sizing: border-box;
+border: 1px solid #4d4d4d;
+border-radius: 5px;
+}
+.temp input[type="submit"] {
+width: 100%;
+background-color: #be0000;
+color: white;
+padding: 10px 0;
+margin: 10px 0;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.temp input[type="submit"]:hover {
+background-color: #3a0000;
+transition: background-color 0.7s ease;
+}
+.temp input[type="checkbox"] {
+margin-top: 10px;
+}
+#error1{
+    color: #860000;
+    font-weight: bolder;
+}
+.copyright {
+position: absolute;
+bottom: 10px;
+right: 10px;
+font-size: 12px;
+color: #777;
+}
+
+.button-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px;
+    background-color: #be0000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #3a0000;
+transition: background-color 0.7s ease;
+}
+
+.scrolltable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scrolltable th,
+.scrolltable td {
+    padding: 3px; /* Réduire le rembourrage */
+    font-size: 12px; /* Réduire la taille de police */
+}
+
+/* Si vous souhaitez également réduire la taille de la police pour l'en-tête */
+.scrolltable th {
+    font-size: 12px;
+}
+
+.scrolltable{
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.form_a-m-s input[type="submit"],button{
+    padding: 5px 10px;
+    font-size: 14px; 
+    color: #000000;
+}
+/* Autres styles CSS existants */
+
+/* Styles pour les tickets */
+.tickets-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticket {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+.ticket:hover {
+    background-color: #f9f9f9;
+}
+
+.ticket .status {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ticket .title {
+    font-weight: bold;
+}
+
+.ticket .msg {
+    margin-bottom: 5px;
+}
+
+.ticket .created {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Styles pour la création de ticket */
+.create {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.create h2 {
+    margin-top: 0;
+}
+
+.create label {
+    font-weight: bold;
+}
+
+.create input[type="text"],
+.create input[type="email"],
+.create textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.create input[type="submit"] {
+    background-color: #be0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.create input[type="submit"]:hover {
+    background-color: #3a0000;
+    transition: background-color 0.7s ease;
+}
+#status1 {
+    color: red;
+}
+#status2 {
+    color: green;
+}
+#status3{
+    color: gray;
+}
